@@ -1,0 +1,16 @@
+.cameraView{
+    position: relative;
+}
+.cameraView__captureButton{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    height: 100px;
+}
+.cameraView__capture{
+    text-transform: translate(-50%, -50%);
+    object-fit: contain;
+    opacity: 1;
+    color: white;
+    cursor: pointer;
+}
