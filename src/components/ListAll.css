@@ -1,0 +1,29 @@
+.listAll{
+    background-color: white;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+.listAll__header{
+    background-color: rgb(0, 132, 255);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px;
+    border-radius:10px;
+}
+.listAll__header__name{
+    font-size: larger;
+    color: #FFFC00;
+    font-weight: bold;
+}
+.listAll__header__avatar{
+    cursor: pointer;
+}
+.listAll__footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 85%;
+    cursor: pointer;
+}

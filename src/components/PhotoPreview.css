@@ -1,0 +1,29 @@
+.photoPreview__image{
+    position: absolute;
+}
+.photoPreview__bottom{
+    background-color: #FFFC00;
+    position: relative;
+    bottom: 40px;
+    left: 83%;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.photoPreview__top{
+    background-color: #FFFC00;
+    cursor: pointer;
+    position: relative;
+    top: -520px;
+    left: 40px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    border-radius: 20px;
+}
